@@ -1,0 +1,30 @@
+// 変数を使う
+#include <stdio.h>
+int main(void){
+    char player[100] = "勇者";
+    printf("%sはレベルアップした",player);
+}
+
+
+// 変数を使う
+#include <stdio.h>
+int main(void){
+    char player1[100] = "勇者";
+    printf("%sの体力が回復した", player1);
+}
+
+
+// 変数を使う
+#include <stdio.h>
+int main(void){
+    char team[100] = "勇者と戦士";
+    printf("%sの体力が回復した", team);
+}
+// 変数を使う
+#include <stdio.h>
+int main(void){
+    char player[100] = "勇者";
+    printf("%sは荒野を歩いていた\n", player);
+    printf("%sはモンスターと戦った\n", player);
+    printf("%sはモンスターをたおした\n", player);
+}
