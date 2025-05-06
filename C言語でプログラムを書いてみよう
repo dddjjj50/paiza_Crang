@@ -1,0 +1,40 @@
+//演習問題1-1、間違い探し。
+
+#include <stdio.h>
+int main(void){
+    printf("hello paizaラーニング");
+}
+
+//セミコロンが抜けていた。
+
+
+
+//演習問題1-2、間違い探し
+
+#include <stdio.h>
+int main(void){
+    printf("hello paizaラーニング");
+}
+
+//""が全角だった
+
+
+
+//演習問題1-3、間違い探し
+
+#include <stdio.h>
+int main(void){
+    printf("hello paizaラーニング");
+}
+
+//printfのPが大文字だった
+
+
+//演習問1-3、printf関数を使ってみよう
+
+#include <stdio.h>
+int main(void){
+   printf("ハローpaizaラーニング");
+}
+
+
