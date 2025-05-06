@@ -1,0 +1,13 @@
+// HTMLを表示する
+#include <stdio.h>
+int main(void){
+    printf("<p>勇者は荒野を歩いていた</p>");
+}
+
+// HTMLを表示する
+#include <stdio.h>
+int main(void){
+    printf("勇者は荒野を歩いていた<br>\n");
+    printf("<b>モンスターがあらわれた</b>");
+}
+
