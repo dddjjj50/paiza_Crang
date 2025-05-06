@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main(void){
+    //printf("勇者は荒野を歩いていた\n");
+    printf("モンスターがあらわれた\n");
+}
+
+
+#include <stdio.h>
+int main(void){
+      printf("勇者は荒野を歩いていた\n");
+      //printf("A:モンスターがあらわれた\n");
+      printf("勇者はすごい剣を手にいれた\n");
+      //printf("A:ドラゴンがあらわれた\n");
+      //printf("A:魔王があらわれた\n");
+      printf("勇者は世界を救った\n");
+}
