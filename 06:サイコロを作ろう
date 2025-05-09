@@ -1,0 +1,9 @@
+// 数の表示とサイコロ
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+int main(void){
+    srand((unsigned int)time(NULL));
+    int number = rand() % 6 + 1;
+    printf("サイコロの目は%dです",number);
+}
