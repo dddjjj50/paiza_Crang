@@ -1,0 +1,13 @@
+//演習問題
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+int main(void){
+    srand((unsigned int)time(NULL));
+    int number = rand() % 10 + 1;  // 匹数 1 ～ 10
+    printf("体重100キロのスライムが%d匹あらわれた\n", number);
+    // 合計体重 = 匹数 × 100
+    printf("スライムの合計体重は%dキロです",number*100);
+
+}
