@@ -1,0 +1,6 @@
+//演習問題
+#include <stdio.h>
+int main(void){
+    // ここに計算式を書いて、出力する
+    printf("%d",1234*5678/2);
+}
