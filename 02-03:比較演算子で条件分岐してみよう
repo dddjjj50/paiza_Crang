@@ -1,0 +1,37 @@
+//演習問題1
+// if文による条件分岐　比較演算子
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+int main(void){
+    srand((unsigned int)time(NULL));
+    int age = rand() % 5 + 18;
+    printf("%d才は", age);
+    // ここにif文を追加
+    if(age<20){
+        printf("飲酒不可");
+    }
+    else if(age>=20){
+        printf("飲酒可能");
+    }
+
+}
+
+//演習問題2
+// if文による条件分岐　比較演算子
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+int main(void){
+    srand((unsigned int)time(NULL));
+    int place = rand() % 12+ 1;
+    printf("%d位", place);
+    // ここにif文を追加
+    if(place<=6){
+        printf("入賞");
+    }
+    else if(place>6){
+        printf("入賞圏外");
+    }
+    
+}
