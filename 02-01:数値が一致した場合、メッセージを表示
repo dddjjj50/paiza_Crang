@@ -1,4 +1,4 @@
-//演習問題
+//演習問題1
 
 // if文による条件分岐
 #include <stdio.h>
@@ -14,3 +14,54 @@ int main(void){
     }
 
 }
+
+
+//演習問題2
+// if文による条件分岐
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+int main(void){
+    srand((unsigned int)time(NULL));
+    int number = rand() % 3 + 1;
+    printf("あなたの順位は%d位です\n", number);
+    if(number==1){
+        printf("おめでとう");
+    }
+    else {
+        printf("あと少し");
+    }
+
+}
+//演習問題3
+// if文による条件分岐
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+int main(void){
+    srand((unsigned int)time(NULL));
+    int number = (rand() % 3 + 1) * 100;
+    printf("あなたの得点は%dポイントです\n", number);
+    // ここにif文を追加する
+    if (number == 300) {
+        printf("おめでとう");
+    }
+}
+//演習問題4
+// if文による条件分岐
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+int main(void){
+    srand((unsigned int)time(NULL));
+    int number = (rand() % 3 + 1) * 100;
+    printf("あなたの得点は%dポイントです\n", number);
+    // ここにif文を追加する
+    if (number == 300) {
+        printf("おめでとう");
+    }
+    else {
+        printf("ざんねん");
+    }
+}
+
