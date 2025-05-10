@@ -1,0 +1,42 @@
+03:RPGの攻撃シーンをつくろう
+
+// whileによるループ処理
+#include <stdio.h>
+
+int main(void)
+{
+    int i = 10;
+    while (i>0) {
+        printf("%d\n", i);
+       // カウンタ変数を更新する処理
+        i--;
+
+    }
+}
+]// whileによるループ処理
+#include <stdio.h>
+
+int main(void)
+{
+    int i = 20;
+
+    // 20から10まで表示させる
+    while(i>=10){
+    printf("%d\n", i);
+    i--;
+    }
+}
+
+
+// whileによるループ処理
+#include <stdio.h>
+
+int main(void)
+{
+    int i=20;
+    while(i>=10){
+        printf("%d\n",i);
+        i-=2;
+    }
+
+}
