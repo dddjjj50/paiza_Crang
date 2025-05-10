@@ -1,0 +1,15 @@
+// おみくじを作る
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+int main(void){
+    srand((unsigned int)time(NULL));
+    int omikuji = rand() % 100 + 1;
+    if (omikuji>30) {
+        printf("omikujiの中身は%dなので大吉", omikuji);
+    } else {
+        printf("omikujiの中身は%dなので大凶", omikuji);
+    }
+}
+
+
