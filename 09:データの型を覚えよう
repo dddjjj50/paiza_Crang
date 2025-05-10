@@ -1,0 +1,21 @@
+//演習問題1
+#include <stdio.h>
+int main(void){
+    int x = 50;
+    printf("%d\n", x - 10);
+}
+
+//演習問題2
+#include <stdio.h>
+int main(void){
+    char monster[100] = "モンスター";
+    printf("%sがあらわれた", monster);
+}
+
+//演習問題3
+// 会員番号を表示
+#include <stdio.h>
+int main(void){
+    int id = 1234567;
+    printf("会員番号：%d",id);
+}
