@@ -1,0 +1,41 @@
+//演習問題1
+
+// if文による条件分岐　else if文
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+int main(void){
+    srand((unsigned int)time(NULL));
+    int number = rand() % 5 + 1;
+    printf("あなたの順位は%d位です\n", number);
+    // ここにif文を追加する
+    if(number==1){
+        printf("おめでとう");
+    }
+    else if(number==2){
+        printf("あと少し");
+    }
+    else {
+        printf("よくがんばったね");
+    }
+    
+}
+//演習問題2
+
+// if文による条件分岐　else if文
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+int main(void){
+    srand((unsigned int)time(NULL));
+    int number = rand() % 5 + 1;
+    printf("あなたの順位は%d位です\n", number);
+    // ここにif文を追加する
+    if (number == 1) {
+        printf("おめでとう！");
+    } else　if (number == 2) {
+        printf("あと少し！");
+    } else {
+        printf("よくがんばったね");
+    }
+}
